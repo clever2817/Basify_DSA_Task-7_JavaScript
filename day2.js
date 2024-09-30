@@ -58,3 +58,32 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 } else {
   console.log("Not a Leap Year");
 }
+
+// Problem-6 (Vowel/Consonant)
+let char = "a";
+
+if (
+  char === "a" ||
+  char === "e" ||
+  char === "i" ||
+  char === "o" ||
+  char === "u" ||
+  char === "A" ||
+  char === "E" ||
+  char === "I" ||
+  char === "O" ||
+  char === "U"
+) {
+  console.log("Vowel");
+} else {
+  console.log("Consonant");
+}
+
+// Problem-7 (Number Divisible by 3 and 5 ?)
+let number = 15;
+
+if (number % 3 === 0 && number % 5 === 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
