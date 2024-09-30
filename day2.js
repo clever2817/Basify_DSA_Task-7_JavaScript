@@ -99,3 +99,17 @@ if (password.length >= 12) {
 } else {
   console.log("Weak password");
 }
+
+// Problem-9 (Number in a Range)
+
+let number4 = 25;
+
+if (number4 >= 1 && number4 <= 10) {
+  console.log("1-10");
+} else if (number4 >= 11 && number4 <= 20) {
+  console.log("11-20");
+} else if (number4 >= 21 && number4 <= 30) {
+  console.log("21-30");
+} else {
+  console.log(false);
+}
