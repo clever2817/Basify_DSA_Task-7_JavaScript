@@ -80,10 +80,22 @@ if (
 }
 
 // Problem-7 (Number Divisible by 3 and 5 ?)
-let number = 15;
+let number3 = 15;
 
-if (number % 3 === 0 && number % 5 === 0) {
+if (number3 % 3 === 0 && number3 % 5 === 0) {
   console.log(true);
 } else {
   console.log(false);
+}
+
+// Problem-8 (Password strength based on length)
+
+let password = "yourpassword";
+
+if (password.length >= 12) {
+  console.log("Strong password");
+} else if (password.length >= 8 && password.length < 12) {
+  console.log("Moderate password");
+} else {
+  console.log("Weak password");
 }
